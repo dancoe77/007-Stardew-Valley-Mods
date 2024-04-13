@@ -7,5 +7,5 @@ Big shout out to Shockah for the original source code which can be found here [S
 **Note:** The below list only includes mods I have made a README for.
 
 [![Safe Lightning Redux](SafeLightning/Header.png)](https://www.nexusmods.com/stardewvalley/mods/11857)\
-Never worry about lightning strikes again! Prevents lightning from striking any tiles or fruit trees.
+Never worry about lightning strikes again! Prevents lightning from striking any tiles or fruit trees.\
 \[[source code](SafeLightning)]
