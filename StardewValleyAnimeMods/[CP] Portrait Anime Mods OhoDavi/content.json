@@ -14,10 +14,25 @@
             "AllowValues": "Normal, Glasses",		
 			"Default": "Normal"
         },
+        //Alesia
+        /* "Alesia": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
 		"Alex": {
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
         },
+        //Andy
+        /* "Andy": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
+        //Apples
+        /* "Apples": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
         "Bear": {
             "AllowValues": "enabled, disabled",		
             "Default": "enabled"
@@ -30,6 +45,11 @@
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
         },
+        //Claire
+        /* "Claire": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
 		"Clint": {
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
@@ -66,6 +86,11 @@
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
         },
+        //Gil
+        /* "Gil": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
         "Governor": {
             "AllowValues": "enabled, disabled",		
             "Default": "enabled"
@@ -90,6 +115,11 @@
             "AllowValues": "Normal, Facelift",		
 			"Default": "Normal"
         },
+        //Hank
+        /* "Hank": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
 		"Harvey": {
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
@@ -98,6 +128,16 @@
             "AllowValues": "enabled, disabled",		
             "Default": "enabled"
         },
+        //Isaac
+        /* "Isaac": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
+        //Jadu
+        /* "Jadu": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
 		"Jas": {
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
@@ -106,6 +146,11 @@
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
         },
+        //Jolyne
+        /* "Jolyne": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
 		"Kent": {
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
@@ -114,6 +159,11 @@
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
         },
+        //Lance
+        /* "Lance": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
 		"Leah": {
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
@@ -134,6 +184,11 @@
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
         },
+        //Martin
+        /* "Martin": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
 		"Maru": {
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
@@ -142,6 +197,11 @@
             "AllowValues": "Normal, Facelift, Glassesontop",		
 			"Default": "Normal"
         },
+        //Morgan
+        /* "Morgan": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
 		"Morris": {
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
@@ -162,6 +222,11 @@
             "AllowValues": "enabled, disabled",		
             "Default": "enabled"
         },
+        //Peaches
+        /* "Peaches": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
 		"Penny": {
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
@@ -182,6 +247,11 @@
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
         },
+        //Scarlett
+        /* "Scarlett": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
         "Sebastian": {
             "AllowValues": "enabled, disabled",		
             "Default": "enabled"
@@ -194,6 +264,26 @@
             "AllowValues": "enabled, disabled",		
             "Default": "enabled"
         },
+        //Suki
+        /* "Suki": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
+        //Susan
+        /* "Susan": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
+        //Treyvon
+        /* "Treyvon": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
+        //Victor
+        /* "Victor": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled"
+        },*/
 		"Vincent": {
             "AllowValues": "enabled, disabled",		
 			"Default": "enabled"
@@ -239,6 +329,16 @@
 				"Abigail": "enabled"
 			}
 		},
+        //Alesia
+        /*{
+            "Action": "EditImage",
+            "Target": "Portraits/Alesia",
+            "FromFile": "assets/Alesia/Alesia.png",
+            "When": {
+                "EnableMod": "true",
+                "Alesia": "enabled"
+            }
+        },*/
 		//Alex
 		{
 			"Action": "EditImage",
@@ -258,6 +358,35 @@
 				"Alex": "enabled"
 			}
 		},
+        //Andy
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Andy",
+        "FromFile": "assets/Andy/Andy.png",
+        "When": {
+        "EnableMod": "true",
+        "Andy": "enabled"
+        }
+        },
+        {
+        "Action": "EditImage",
+        "Target": "Portraits/Andy_Beach",
+        "FromFile": "assets/Andy/Andy_Beach.png",
+        "When": {
+        "EnableMod": "true",
+        "Andy": "enabled"
+        }
+        },*/
+        //Apples
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Apples",
+        "FromFile": "assets/Apples/Apples.png",
+        "When": {
+        "EnableMod": "true",
+        "Apples": "enabled"
+        }
+        },*/
 		//Bear
 		{
 			"Action": "EditImage",
@@ -297,6 +426,25 @@
 				"Caroline": "enabled"
 			}
 		},
+        //Claire
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Claire",
+        "FromFile": "assets/Claire/Claire.png",
+        "When": {
+        "EnableMod": "true",
+        "Claire": "enabled"
+        }
+        },
+        {
+        "Action": "EditImage",
+        "Target": "Portraits/Claire_Beach",
+        "FromFile": "assets/Claire/Claire_Beach.png",
+        "When": {
+        "EnableMod": "true",
+        "Claire": "enabled"
+        }
+        },*/
 		//Clint
 		{
 			"Action": "EditImage",
@@ -425,6 +573,16 @@
 				"George": "enabled"
 			}
 		},
+        //Gil
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Gil",
+        "FromFile": "assets/Gil/Gil.png",
+        "When": {
+        "EnableMod": "true",
+        "Gil": "enabled"
+        }
+        },*/
         //Governor
         {
             "Action": "EditImage",
@@ -495,6 +653,16 @@
 				"Haley": "enabled"
 			}
 		},
+        //Hank
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Hank",
+        "FromFile": "assets/Hank/Hank.png",
+        "When": {
+        "EnableMod": "true",
+        "Hank": "enabled"
+        }
+        },*/
 		//Harvey
 		{
 			"Action": "EditImage",
@@ -524,6 +692,26 @@
                 "Henchman": "enabled"
 			}
 		},
+        //Isaac
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Isaac",
+        "FromFile": "assets/isaac/Isaac.png",
+        "When": {
+        "EnableMod": "true",
+        "Isaac": "enabled"
+        }
+        },*/
+        //Jadu
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Jadu",
+        "FromFile": "assets/Jadu/Jadu.png",
+        "When": {
+        "EnableMod": "true",
+        "Jadu": "enabled"
+                }
+        },*/
 		//Jas
 		{
 			"Action": "EditImage",
@@ -553,6 +741,26 @@
 				"Jodi": "enabled"
 			}
 		},
+        //Jolyne
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Jolyne",
+        "FromFile": "assets/Jolyne/Jolyne.png",
+        "When": {
+        "EnableMod": "true",
+        "Jolyne": "enabled"
+        }
+        },*/
+        //Lance
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Lance",
+        "FromFile": "assets/Lance/Lance.png",
+        "When": {
+        "EnableMod": "true",
+        "Lance": "enabled"
+        }
+        },*/
 		//Kent
 		{
 			"Action": "EditImage",
@@ -641,6 +849,16 @@
 				"Marnie": "enabled"
 			}
 		},
+        //Martin
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Martin",
+        "FromFile": "assets/Martin/Martin.png",
+        "When": {
+        "EnableMod": "true",
+        "Martin": "enabled"
+        }
+        },*/
 		//Maru
 		{
 			"Action": "EditImage",
@@ -701,6 +919,16 @@
 				"Maru": "enabled"
 			}
 		},
+        //Morgan
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Morgan",
+        "FromFile": "assets/Morgan/Morgan.png",
+        "When": {
+        "EnableMod": "true",
+        "Morgan": "enabled"
+                }
+        },*/
 		//Morris
 		{
 			"Action": "EditImage",
@@ -769,6 +997,16 @@
                 "ParrotBoy": "enabled"
             }
         },
+        //Peaches
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Peaches",
+        "FromFile": "assets/Peaches/Peaches.png",
+        "When": {
+        "EnableMod": "true",
+        "Peaches": "enabled"
+        }
+        },*/
 		//Penny
 		{
 			"Action": "EditImage",
@@ -855,6 +1093,25 @@
 				"Sandy": "enabled"
 			}
 		},
+        //Scarlett
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Scarlett",
+        "FromFile": "assets/Scarlett/Scarlett.png",
+        "When": {
+        "EnableMod": "true",
+        "Scarlett": "enabled"
+        }
+        },
+        {
+        "Action": "EditImage",
+        "Target": "Portraits/Scarlett_Beach",
+        "FromFile": "assets/Scarlett/Scarlett_Beach.png",
+        "When": {
+        "EnableMod": "true",
+        "Scarlett": "enabled"
+        }
+        },*/
         //Sebastian
         {
             "Action": "EditImage",
@@ -903,6 +1160,73 @@
                 "Sophia": "enabled"
             }
         },
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia_Beach",
+        "FromFile": "assets/Sophia/Sophia_Beach.png",
+        "When": {
+        "EnableMod": "true",
+        "Sophia": "enabled"
+        }
+        },*/
+        //Suki
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Suki",
+        "FromFile": "assets/Suki/Suki.png",
+        "When": {
+        "EnableMod": "true",
+        "Suki": "enabled"
+        }
+        },*/
+        //Susan
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Susan",
+        "FromFile": "assets/Susan/Susan.png",
+        "When": {
+        "EnableMod": "true",
+        "Susan": "enabled"
+        }
+        },
+        {
+        "Action": "EditImage",
+        "Target": "Portraits/Susan_Beach",
+        "FromFile": "assets/Susan/Susan_Beach.png",
+        "When": {
+        "EnableMod": "true",
+        "Susan": "enabled"
+        }
+        },*/
+        //Treyvon
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Treyvon",
+        "FromFile": "assets/Treyvon/Treyvon.png",
+        "When": {
+        "EnableMod": "true",
+        "Treyvon": "enabled"
+        }
+        },*/
+        //Victor
+        /*{
+        "Action": "EditImage",
+        "Target": "Portraits/Victor",
+        "FromFile": "assets/Victor/Victor.png",
+        "When": {
+        "EnableMod": "true",
+        "Victor": "enabled"
+        }
+        },
+        {
+        "Action": "EditImage",
+        "Target": "Portraits/Victor_Beach",
+        "FromFile": "assets/Victor/Victor_Beach.png",
+        "When": {
+        "EnableMod": "true",
+        "Victor": "enabled"
+        }
+        },*/
 		//Vincent
 		{
 			"Action": "EditImage",
