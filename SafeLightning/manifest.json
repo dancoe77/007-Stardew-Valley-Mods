@@ -1,0 +1,17 @@
+﻿{
+    "Name": "Safe Lightning",
+    "Author": "Shockah",
+    "Version": "1.0.0",
+    "Description": "Safe Lightning",
+    "UniqueID": "Shockah.SafeLightning",
+    "EntryDll": "SafeLightning.dll",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [ "Nexus:11857" ],
+    "Dependencies": [
+        {
+            "UniqueID": "Shockah.Kokoro",
+            "IsRequired": true,
+            "MinimumVersion": "2.0.0"
+        }
+    ]
+}
