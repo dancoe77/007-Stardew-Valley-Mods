@@ -8,6 +8,12 @@
    "UpdateKeys": ["ModDrop:Dan2769"],
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher",
-      "MinimumVersion": "2.1.0"
-   }
+      "MinimumVersion": "2.8.0"
+   },
+  "Dependencies": [
+    {
+      "UniqueID": "FlashShifter.SVECode",
+      "IsRequired": true
+    }
+  ]
 }
