@@ -5,7 +5,7 @@
    "Description": "Replaces the vanilla and SVE portraits with Ohodavi's anime portraits.",
    "UniqueID": "dancoe77.SVEAnimeP",
    "MinimumApiVersion": "4.1.10",
-   "UpdateKeys": ["ModDrop:Dan2769"],
+   "UpdateKeys": ["ModDrop:1741490-stardew-valley-sve-anime-mod"],
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher",
       "MinimumVersion": "2.8.1"
