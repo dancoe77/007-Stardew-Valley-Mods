@@ -1,0 +1,28 @@
+This mod contain some variants for some characters, if you want to switch between them,
+change the value in the config.json
+
+The values are as follows:
+
+"Abigail_Style": {
+      "AllowValues": "Normal, Glasses",
+      "Default": "Normal"
+
+"Emily_Style": {
+      "AllowValues": "Normal, Alter",
+      "Default": "Normal"
+
+"Leah_Winter_Style": {
+      "AllowValues": "Normal, Alter",
+      "Default": "Normal"
+
+"Maru_Style": {
+      "AllowValues": "Normal, Facelift, Glassesontop",
+      "Default": "Normal"
+
+"Penny_Winter_Style": {
+      "AllowValues": "Normal, Alter",
+      "Default": "Normal"
+
+"Sophia_Style": {
+    "AllowValues": "Normal, Makeup",
+    "Default": "Normal"

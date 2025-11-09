@@ -1,0 +1,140 @@
+{
+	"Format": "1.18.0",
+    "DynamicTokens": [
+	
+//SEASONAL TOKENS
+		{
+			"Name": "PlaceType",
+			"Value": "_Indoor",
+		},
+		{
+			"Name": "PlaceType",
+			"Value": "_Outdoor",
+			"When": { "IsOutdoors": "true" },
+		},
+		
+		{
+			"Name": "WeatherType",
+			"Value": "_Sun",
+		},
+		{
+			"Name": "WeatherType",
+			"Value": "_Rain",
+			"When": { "Weather": "rain, storm", },
+		},
+		{
+			"Name": "WeatherType",
+			"Value": "_Snow",
+			"When": { "Weather": "snow", }
+		},
+//FESTIVAL TOKENS
+        {
+            "Name": "Festival",
+            "Value": "EggFestival",
+            "When":
+            {
+                "DayEvent": "egg festival",
+                "LocationName": "town, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "FlowerDance",
+            "When":
+            {
+                "DayEvent": "flower dance",
+                "LocationName": "Forest, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "IceFestival",
+            "When":
+            {
+                "DayEvent": "festival of ice",
+                "LocationName": "Forest, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Luau",
+            "When":
+            {
+                "DayEvent": "luau",
+                "LocationName": "Beach, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "MoonlightJellies",
+            "When":
+            {
+                "DayEvent": "dance of the moonlight jellies",
+                "LocationName": "Beach, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SpiritsEve",
+            "When":
+            {
+                "DayEvent": "spirit's eve",
+                "LocationName": "town, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SVFair",
+            "When":
+            {
+                "DayEvent": "stardew valley fair",
+                "LocationName": "town, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "WinterStar",
+            "When":
+            {
+                "DayEvent": "feast of the winter star",
+                "LocationName": "town, temp"
+            }
+        },
+        {
+            "Name": "Wedding",
+            "Value": "WeddingOutfits",
+            "When":
+            {
+                "DayEvent": "wedding",
+            }
+        },
+	
+	],
+	
+//CHANGES
+	
+	"Changes": [
+	
+//SEASONAL PORTRAITS Raphael
+
+		{
+			"LogName": "Seasonal Portraits",
+			"Action": "EditImage",
+			"Target": "Portraits/Raphael",
+			"FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}{{PlaceType}}{{WeatherType}}_{{Random:1,2 |key=RandomizedOutfit}}.png",
+			"When": { "HasFile:{{FromFile}}": true, },
+			"Update": "OnLocationChange",
+		},
+		
+//FESTIVALS PORTRAITS
+		
+		{
+			"LogName": "Festival Portraits",
+			"Action": "EditImage",
+			"Target": "Portraits/Raphael",
+			"FromFile": "{{TargetPathOnly}}/Festivals/{{TargetWithoutPath}}_{{Festival}}.png",
+			"When": { "HasFile:{{FromFile}}": true, },
+			"Update": "OnLocationChange",
+		},	
+	]
+}

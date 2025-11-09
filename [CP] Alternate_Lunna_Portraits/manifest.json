@@ -1,0 +1,19 @@
+{
+    "Name": "AlternatePortraits Lunna",
+    "Author": "dancoe77",
+    "Version": "2.0",
+    "Description": "Replaces Lunna's portraits with a different style",
+    "UniqueID": "dancoe77.AlternatePortraitsLunna",
+    "MinimumApiVersion": "4.1.10",
+    "UpdateKeys": ["ModDrop:Dan2769"],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "2.8.1"
+    },
+    "Dependencies": [
+    {
+        "UniqueID": "Rafseazz.LunnaCP",
+        "IsRequired": true
+    }
+  ]
+}

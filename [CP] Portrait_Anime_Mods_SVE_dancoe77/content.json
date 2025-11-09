@@ -58,14 +58,6 @@
       "AllowValues": "Normal, Alter",
       "Default": "Normal"
     },
-    "Emily_Beach_Style": {
-      "AllowValues": "Normal, Alter",
-      "Default": "Normal"
-    },
-    "Emily_Winter_Style": {
-      "AllowValues": "Normal, Alter",
-      "Default": "Normal"
-    },
     "Evelyn": {
       "AllowValues": "enabled, disabled",
       "Default": "enabled"
@@ -234,6 +226,10 @@
   "Sophia": {
     "AllowValues": "enabled, disabled",
     "Default": "enabled"
+  },
+  "Sophia_Style": {
+    "AllowValues": "Normal, Makeup",
+    "Default": "Normal"
   },
 	"Changes": [
 		//Abigail
@@ -474,7 +470,7 @@
 			"When": {
 				"EnableMod": "true",
 				"Emily": "enabled",
-				"Emily_Beach_Style": "Normal"
+				"Emily_Style": "Normal"
 			}
 		},
 		{
@@ -484,7 +480,7 @@
 			"When": {
 				"EnableMod": "true",
 				"Emily": "enabled",
-				"Emily_Beach_Style": "Alter"
+				"Emily_Style": "Alter"
 			}
 		},
 		{
@@ -494,7 +490,7 @@
 			"When": {
 				"EnableMod": "true",
 				"Emily": "enabled",
-				"Emily_Winter_Style": "Normal"
+				"Emily_Style": "Normal"
 			}
 		},
 		{
@@ -504,7 +500,7 @@
 			"When": {
 				"EnableMod": "true",
 				"Emily": "enabled",
-				"Emily_Winter_Style": "Alter"
+				"Emily_Style": "Alter"
 			}
 		},
 		//Evelyn
@@ -1297,10 +1293,322 @@
       {
         "Action": "EditImage",
         "Target": "Portraits/Sophia",
-        "FromFile": "assets/SVE/Sophia/Sophia.png",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Spring.png",
         "When": {
           "EnableMod": "true",
-          "Sophia": "enabled"
+          "Sophia": "enabled",
+          "Season": "spring"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Spring_Indoor_Rain.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "spring",
+          "IsOutdoors": "false",
+          "Weather": "Rain",
+          "Sophia_Style": "Normal"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Spring_Indoor_Rain_Makeup.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "spring",
+          "IsOutdoors": "false",
+          "Weather": "Rain",
+          "Sophia_Style": "Makeup"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Spring_Outdoor_Rain.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "spring",
+          "IsOutdoors": "true",
+          "Weather": "Rain",
+          "Sophia_Style": "Normal"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Spring_Outdoor_Rain_Makeup.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "spring",
+          "IsOutdoors": "true",
+          "Weather": "Rain",
+          "Sophia_Style": "Makeup"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Summer.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "summer",
+          "Sophia_Style": "Normal"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Summer_Indoor_Rain.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "summer",
+          "IsOutdoors": "false",
+          "Weather": "Rain",
+          "Sophia_Style": "Normal"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Summer_Indoor_Rain_Makeup.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "summer",
+          "IsOutdoors": "false",
+          "Weather": "Rain",
+          "Sophia_Style": "Makeup"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Summer_Indoor_Sun.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "summer",
+          "IsOutdoors": "false",
+          "Weather": "Sun",
+          "Sophia_Style": "Normal"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Summer_Indoor_Sun_Makeup.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "summer",
+          "IsOutdoors": "false",
+          "Weather": "Sun",
+          "Sophia_Style": "Makeup"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Summer_Makeup.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "summer",
+          "Sophia_Style": "Makeup"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Summer_Outdoor_Rain.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "summer",
+          "IsOutdoors": "true",
+          "Weather": "Rain",
+          "Sophia_Style": "Normal"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Summer_Outdoor_Rain_Makeup.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "summer",
+          "IsOutdoors": "true",
+          "Weather": "Rain",
+          "Sophia_Style": "Makeup"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Summer_Outdoor_Sun.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "summer",
+          "IsOutdoors": "true",
+          "Weather": "Sun",
+          "Sophia_Style": "Normal"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Summer_Outdoor_Sun_Makeup.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "summer",
+          "IsOutdoors": "true",
+          "Weather": "Sun",
+          "Sophia_Style": "Makeup"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Summer_Outdoor_Rain.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "summer",
+          "IsOutdoors": "true",
+          "Weather": "Rain",
+          "Sophia_Style": "Normal"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Fall.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "fall",
+          "Sophia_Style": "Normal"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Fall_Makeup.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "fall",
+          "Sophia_Style": "Makeup"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia_Winter",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Winter_Indoor.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "winter",
+          "IsOutdoors": "false",
+          "Sophia_Style": "Normal"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia_Winter",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Winter_Indoor_Makeup.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "winter",
+          "IsOutdoors": "false",
+          "Sophia_Style": "Makeup"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia_Winter",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Winter_Outdoor.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "winter",
+          "IsOutdoors": "true",
+          "Sophia_Style": "Normal"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia_Winter",
+        "FromFile": "assets/SVE/Sophia/Portraits/Seasons/Sophia_Winter_Outdoor_Makeup.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "Season": "winter",
+          "IsOutdoors": "true",
+          "Sophia_Style": "Makeup"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Festivals/EggFestival/Sophia_EggFestival.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "DayEvent": "Egg Festival"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Festivals/FlowerDance/Sophia_FlowerDance.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "DayEvent": "Flower Dance"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Festivals/Luau/Sophia_Luau.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "DayEvent": "Luau"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Festivals/MoonlightJellies/Sophia_MoonlightJellies.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "DayEvent": "Dance of the Moonlight Jellies"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Sophia",
+        "FromFile": "assets/SVE/Sophia/Portraits/Festivals/SpiritsEve/Sophia_SpiritsEve.png",
+        "When": {
+          "EnableMod": "true",
+          "Sophia": "enabled",
+          "DayEvent": "Spirit's Eve"
         }
       }
     ]
