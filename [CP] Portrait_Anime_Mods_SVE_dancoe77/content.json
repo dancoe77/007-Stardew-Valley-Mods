@@ -1297,7 +1297,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "spring"
+          "Season": "Spring"
         }
       },
       {
@@ -1307,7 +1307,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "spring",
+          "Season": "Spring",
           "IsOutdoors": "false",
           "Weather": "Rain",
           "Sophia_Style": "Normal"
@@ -1320,7 +1320,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "spring",
+          "Season": "Spring",
           "IsOutdoors": "false",
           "Weather": "Rain",
           "Sophia_Style": "Makeup"
@@ -1333,7 +1333,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "spring",
+          "Season": "Spring",
           "IsOutdoors": "true",
           "Weather": "Rain",
           "Sophia_Style": "Normal"
@@ -1346,7 +1346,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "spring",
+          "Season": "Spring",
           "IsOutdoors": "true",
           "Weather": "Rain",
           "Sophia_Style": "Makeup"
@@ -1359,7 +1359,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "summer",
+          "Season": "Summer",
           "Sophia_Style": "Normal"
         }
       },
@@ -1370,7 +1370,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "summer",
+          "Season": "Summer",
           "IsOutdoors": "false",
           "Weather": "Rain",
           "Sophia_Style": "Normal"
@@ -1383,7 +1383,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "summer",
+          "Season": "Summer",
           "IsOutdoors": "false",
           "Weather": "Rain",
           "Sophia_Style": "Makeup"
@@ -1396,7 +1396,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "summer",
+          "Season": "Summer",
           "IsOutdoors": "false",
           "Weather": "Sun",
           "Sophia_Style": "Normal"
@@ -1409,7 +1409,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "summer",
+          "Season": "Summer",
           "IsOutdoors": "false",
           "Weather": "Sun",
           "Sophia_Style": "Makeup"
@@ -1422,7 +1422,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "summer",
+          "Season": "Summer",
           "Sophia_Style": "Makeup"
         }
       },
@@ -1433,7 +1433,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "summer",
+          "Season": "Summer",
           "IsOutdoors": "true",
           "Weather": "Rain",
           "Sophia_Style": "Normal"
@@ -1446,7 +1446,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "summer",
+          "Season": "Summer",
           "IsOutdoors": "true",
           "Weather": "Rain",
           "Sophia_Style": "Makeup"
@@ -1459,7 +1459,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "summer",
+          "Season": "Summer",
           "IsOutdoors": "true",
           "Weather": "Sun",
           "Sophia_Style": "Normal"
@@ -1472,7 +1472,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "summer",
+          "Season": "Summer",
           "IsOutdoors": "true",
           "Weather": "Sun",
           "Sophia_Style": "Makeup"
@@ -1485,7 +1485,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "summer",
+          "Season": "Summer",
           "IsOutdoors": "true",
           "Weather": "Rain",
           "Sophia_Style": "Normal"
@@ -1498,7 +1498,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "fall",
+          "Season": "Fall",
           "Sophia_Style": "Normal"
         }
       },
@@ -1509,7 +1509,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "fall",
+          "Season": "Fall",
           "Sophia_Style": "Makeup"
         }
       },
@@ -1520,7 +1520,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "winter",
+          "Season": "Winter",
           "IsOutdoors": "false",
           "Sophia_Style": "Normal"
         }
@@ -1532,7 +1532,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "winter",
+          "Season": "Winter",
           "IsOutdoors": "false",
           "Sophia_Style": "Makeup"
         }
@@ -1544,7 +1544,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "winter",
+          "Season": "Winter",
           "IsOutdoors": "true",
           "Sophia_Style": "Normal"
         }
@@ -1556,7 +1556,7 @@
         "When": {
           "EnableMod": "true",
           "Sophia": "enabled",
-          "Season": "winter",
+          "Season": "Winter",
           "IsOutdoors": "true",
           "Sophia_Style": "Makeup"
         }

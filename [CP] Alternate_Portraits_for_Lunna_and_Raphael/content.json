@@ -1,0 +1,400 @@
+{
+  "Format": "2.8.0",
+  "ConfigSchema": {
+    "EnableMod": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Lunna": {
+      "AllowValues": "enabled, disabled",
+      "Default": "enabled"
+    },
+    "Raphael": {
+      "AllowValues": "enabled, disabled",
+      "Default": "enabled"
+    }
+  },
+	"Changes": [
+      //Lunna
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna",
+        "FromFile": "assets/Lunna/Seasons/Lunna_Spring.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "Season": "Spring"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna",
+        "FromFile": "assets/Lunna/Seasons/Lunna_Spring_Rain.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "Season": "Spring",
+          "Weather": "Rain"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna",
+        "FromFile": "assets/Lunna/Seasons/Lunna_Summer_Indoor.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "Season": "Summer",
+          "IsOutdoors": "false"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna",
+        "FromFile": "assets/Lunna/Seasons/Lunna_Summer_Outdoor.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "Season": "Summer",
+          "IsOutdoors": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna",
+        "FromFile": "assets/Lunna/Seasons/Lunna_Summer_Rain.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "Season": "Summer",
+          "Weather": "Rain"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna",
+        "FromFile": "assets/Lunna/Seasons/Lunna_Fall.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "Season": "Fall"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna",
+        "FromFile": "assets/Lunna/Seasons/Lunna_Fall_Rain.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "Season": "Fall",
+          "Weather": "Rain"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna_Winter",
+        "FromFile": "assets/Lunna/Seasons/Lunna_Winter_Indoor.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "Season": "Winter",
+          "IsOutdoors": "false"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna_Winter",
+        "FromFile": "assets/Lunna/Seasons/Lunna_Winter_Outdoor.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "Season": "Winter",
+          "IsOutdoors": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna_Winter",
+        "FromFile": "assets/Lunna/Seasons/Lunna_Winter_Outdoor_Snow.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "Season": "Winter",
+          "IsOutdoors": "true",
+          "Weather": "Snow"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna",
+        "FromFile": "assets/Lunna/Festivals/Lunna_EggFestival.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "DayEvent": "Egg Festival"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna",
+        "FromFile": "assets/Lunna/Festivals/Lunna_FlowerDance.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "DayEvent": "Flower Dance"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna",
+        "FromFile": "assets/Lunna/Festivals/Lunna_IceFestival.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "DayEvent": "Festival of Ice"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna",
+        "FromFile": "assets/Lunna/Festivals/Lunna_Luau.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "DayEvent": "Luau"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna",
+        "FromFile": "assets/Lunna/Festivals/Lunna_MoonlightJellies.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "DayEvent": "Dance of the Moonlight Jellies"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna",
+        "FromFile": "assets/Lunna/Festivals/Lunna_SpiritsEve.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "DayEvent": "Spirit's Eve"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna",
+        "FromFile": "assets/Lunna/Festivals/Lunna_SVFair.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "DayEvent": "Stardew Valley Fair"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Lunna",
+        "FromFile": "assets/Lunna/Festivals/Lunna_WinterStar.png",
+        "When": {
+          "EnableMod": "true",
+          "Lunna": "enabled",
+          "DayEvent": "Feast of the Winter Star"
+        }
+      },
+      //Raphael
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael",
+        "FromFile": "assets/Raphael/Seasons/Raphael_Spring_1.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "Season": "Spring",
+          "Day": "{{Range: 1, 14}}"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael",
+        "FromFile": "assets/Raphael/Seasons/Raphael_Spring_2.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "Season": "Spring",
+          "Day": "{{Range: 15, 28}}"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael",
+        "FromFile": "assets/Raphael/Seasons/Raphael_Rain.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "Season": "Spring, Summer, Fall",
+          "Weather": "Rain"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael",
+        "FromFile": "assets/Raphael/Seasons/Raphael_Summer_1.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "Season": "Summer",
+          "Day": "{{Range: 1, 14}}"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael",
+        "FromFile": "assets/Raphael/Seasons/Raphael_Summer_2.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "Season": "Summer",
+          "Day": "{{Range: 15, 28}}"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael",
+        "FromFile": "assets/Raphael/Seasons/Raphael_Fall_1.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "Season": "Fall",
+          "Day": "{{Range: 1, 14}}"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael",
+        "FromFile": "assets/Raphael/Seasons/Raphael_Fall_2.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "Season": "Spring",
+          "Day": "{{Range: 15, 28}}"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael_Winter",
+        "FromFile": "assets/Raphael/Seasons/Raphael_Winter_1.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "Season": "Winter",
+          "Day": "{{Range: 1, 14}}"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael_Winter",
+        "FromFile": "assets/Raphael/Seasons/Raphael_Winter_2.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "Season": "Winter",
+          "Day": "{{Range: 15, 28}}"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael_Winter",
+        "FromFile": "assets/Raphael/Seasons/Raphael_Winter_Snow.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "Season": "Winter",
+          "Weather": "Snow"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael",
+        "FromFile": "assets/Raphael/Festivals/Raphael_EggFestival.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "DayEvent": "Egg Festival"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael",
+        "FromFile": "assets/Raphael/Festivals/Raphael_FlowerDance.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "DayEvent": "Flower Dance"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael",
+        "FromFile": "assets/Raphael/Festivals/Raphael_IceFestival.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "DayEvent": "Festival of Ice"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael",
+        "FromFile": "assets/Raphael/Festivals/Raphael_Luau.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "DayEvent": "Luau"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael",
+        "FromFile": "assets/Raphael/Festivals/Raphael_MoonlightJellies.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "DayEvent": "Dance of the Moonlight Jellies"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael",
+        "FromFile": "assets/Raphael/Festivals/Raphael_SpiritsEve.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "DayEvent": "Spirit's Eve"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael",
+        "FromFile": "assets/Raphael/Festivals/Raphael_SVFair.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "DayEvent": "Stardew Valley Fair"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Raphael",
+        "FromFile": "assets/Raphael/Festivals/Raphael_WinterStar.png",
+        "When": {
+          "EnableMod": "true",
+          "Raphael": "enabled",
+          "DayEvent": "Feast of the Winter Star"
+        }
+      }
+    ]
+}

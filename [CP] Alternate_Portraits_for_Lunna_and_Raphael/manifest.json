@@ -1,9 +1,9 @@
 {
-    "Name": "AlternatePortraits Lunna",
+    "Name": "Alternate Portraits for Lunna and Raphael",
     "Author": "dancoe77",
-    "Version": "2.0",
-    "Description": "Replaces Lunna's portraits with a different style",
-    "UniqueID": "dancoe77.AlternatePortraitsLunna",
+    "Version": "1.0.0",
+    "Description": "Replaces Lunna's and Raphael's portraits with a different style",
+    "UniqueID": "dancoe77.AlternatePortraitsLunnaRaphael",
     "MinimumApiVersion": "4.1.10",
     "UpdateKeys": ["ModDrop:Dan2769"],
     "ContentPackFor": {
