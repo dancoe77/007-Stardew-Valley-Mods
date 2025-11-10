@@ -97,6 +97,10 @@
       "AllowValues": "enabled, disabled",
       "Default": "enabled"
     },
+    "Henchman": {
+      "AllowValues": "enabled, disabled",
+      "Default": "enabled"
+    },
     "Jas": {
       "AllowValues": "enabled, disabled",
       "Default": "enabled"
@@ -202,6 +206,10 @@
       "Default": "enabled"
     },
     "Willy": {
+      "AllowValues": "enabled, disabled",
+      "Default": "enabled"
+    },
+    "Wizard": {
       "AllowValues": "enabled, disabled",
       "Default": "enabled"
     },
@@ -558,7 +566,7 @@
 			"FromFile": "assets/SDV/Governor/Governor.png",
 			"When": {
 				"EnableMod": "true",
-                "Governor": "true"
+                "Governor": "enabled"
 			}
 		},
 		//Grandpa
@@ -658,14 +666,14 @@
 		},
       //Henchman
         {
-          "Action": "EditImage",
-          "Target": "Portraits/Henchman",
-          "FromFile": "assets/SDV/Henchman/Henchman.png",
-          "When": {
-            "EnableMod": "true",
-            "Henchman": "enabled"
-          }
-        },
+        "Action": "EditImage",
+        "Target": "Portraits/Henchman",
+        "FromFile": "assets/SDV/Henchman/Henchman.png",
+        "When": {
+          "EnableMod": "true",
+          "Henchman": "enabled"
+        }
+      },
 		//Jas
 		{
 			"Action": "EditImage",
