@@ -5,7 +5,7 @@
     "Description": "Replaces Lunna's and Raphael's portraits with a different style",
     "UniqueID": "dancoe77.AlternatePortraitsLunnaRaphael",
     "MinimumApiVersion": "4.1.10",
-    "UpdateKeys": ["ModDrop:1741506-alternate-portraits-for-lunna-and-raphael"],
+    "UpdateKeys": ["ModDrop:1741506"],
     "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher",
       "MinimumVersion": "2.8.1"
