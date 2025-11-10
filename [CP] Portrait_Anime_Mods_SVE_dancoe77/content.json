@@ -8,7 +8,6 @@
     "Abigail": {
       "AllowValues": "enabled, disabled",
       "Default": "enabled"
-    }
     },
     "Abigail_Style": {
       "AllowValues": "Normal, Glasses",
@@ -41,7 +40,7 @@
     "Demetrius": {
       "AllowValues": "enabled, disabled",
       "Default": "enabled"
-        },
+    },
     "Dwarf": {
       "AllowValues": "enabled, disabled",
       "Default": "enabled"
@@ -109,7 +108,7 @@
     "Kent": {
       "AllowValues": "enabled, disabled",
       "Default": "enabled"
-	},
+    },
     "Krobus": {
       "AllowValues": "enabled, disabled",
       "Default": "enabled"
@@ -206,30 +205,31 @@
       "AllowValues": "enabled, disabled",
       "Default": "enabled"
     },
-  // SVE
-  "Camilla": {
-    "AllowValues": "enabled, disabled",
-    "Default": "enabled"
-  },
-  "Dobson": {
-    "AllowValues": "enabled, disabled",
-    "Default": "enabled"
-  },
-  "Mermaid": {
-    "AllowValues": "enabled, disabled",
-    "Default": "enabled"
-  },
-  "Olivia": {
-    "AllowValues": "enabled, disabled",
-    "Default": "enabled"
-  },
-  "Sophia": {
-    "AllowValues": "enabled, disabled",
-    "Default": "enabled"
-  },
-  "Sophia_Style": {
-    "AllowValues": "Normal, Makeup",
-    "Default": "Normal"
+    // SVE
+    "Camilla": {
+      "AllowValues": "enabled, disabled",
+      "Default": "enabled"
+    },
+    "Dobson": {
+      "AllowValues": "enabled, disabled",
+      "Default": "enabled"
+    },
+    "Mermaid": {
+      "AllowValues": "enabled, disabled",
+      "Default": "enabled"
+    },
+    "Olivia": {
+      "AllowValues": "enabled, disabled",
+      "Default": "enabled"
+    },
+    "Sophia": {
+      "AllowValues": "enabled, disabled",
+      "Default": "enabled"
+    },
+    "Sophia_Style": {
+      "AllowValues": "Normal, Makeup",
+      "Default": "Normal"
+    }
   },
 	"Changes": [
 		//Abigail
