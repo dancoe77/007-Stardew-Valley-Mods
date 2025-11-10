@@ -4,7 +4,7 @@
    "Version": "1.0.7",
    "Description": "Replaces the vanilla and SVE portraits with Ohodavi's anime portraits.",
    "UniqueID": "dancoe77.SVEAnimeP",
-   "MinimumApiVersion": "4.1.10",
+   "MinimumApiVersion": "4.3.2",
    "UpdateKeys": ["ModDrop:1741490"],
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher",
