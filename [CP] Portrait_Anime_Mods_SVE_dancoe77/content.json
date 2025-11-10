@@ -948,7 +948,7 @@
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/MrQi",
-			"FromFile": "assets/SDV/MrQi/Mr.Qi.png",
+			"FromFile": "assets/SDV/MrQi/MrQi.png",
 			"When": {
 				"EnableMod": "true",
 				"MrQi": "enabled"

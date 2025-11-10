@@ -24,7 +24,9 @@
           "EnableMod": "true",
           "Lunna": "enabled",
           "Season": "Spring"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -35,7 +37,9 @@
           "Lunna": "enabled",
           "Season": "Spring",
           "Weather": "Rain"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -46,7 +50,9 @@
           "Lunna": "enabled",
           "Season": "Summer",
           "IsOutdoors": "false"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -57,7 +63,9 @@
           "Lunna": "enabled",
           "Season": "Summer",
           "IsOutdoors": "true"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -68,7 +76,9 @@
           "Lunna": "enabled",
           "Season": "Summer",
           "Weather": "Rain"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -78,7 +88,9 @@
           "EnableMod": "true",
           "Lunna": "enabled",
           "Season": "Fall"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -89,7 +101,9 @@
           "Lunna": "enabled",
           "Season": "Fall",
           "Weather": "Rain"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -100,7 +114,9 @@
           "Lunna": "enabled",
           "Season": "Winter",
           "IsOutdoors": "false"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -111,7 +127,9 @@
           "Lunna": "enabled",
           "Season": "Winter",
           "IsOutdoors": "true"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -123,7 +141,9 @@
           "Season": "Winter",
           "IsOutdoors": "true",
           "Weather": "Snow"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -133,7 +153,9 @@
           "EnableMod": "true",
           "Lunna": "enabled",
           "DayEvent": "Egg Festival"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -143,7 +165,9 @@
           "EnableMod": "true",
           "Lunna": "enabled",
           "DayEvent": "Flower Dance"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -153,7 +177,9 @@
           "EnableMod": "true",
           "Lunna": "enabled",
           "DayEvent": "Festival of Ice"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -163,7 +189,9 @@
           "EnableMod": "true",
           "Lunna": "enabled",
           "DayEvent": "Luau"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -173,7 +201,9 @@
           "EnableMod": "true",
           "Lunna": "enabled",
           "DayEvent": "Dance of the Moonlight Jellies"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -183,7 +213,9 @@
           "EnableMod": "true",
           "Lunna": "enabled",
           "DayEvent": "Spirit's Eve"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -193,7 +225,9 @@
           "EnableMod": "true",
           "Lunna": "enabled",
           "DayEvent": "Stardew Valley Fair"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -203,7 +237,9 @@
           "EnableMod": "true",
           "Lunna": "enabled",
           "DayEvent": "Feast of the Winter Star"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       //Raphael
       {
@@ -215,7 +251,9 @@
           "Raphael": "enabled",
           "Season": "Spring",
           "Day": "{{Range: 1, 14}}"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -226,7 +264,9 @@
           "Raphael": "enabled",
           "Season": "Spring",
           "Day": "{{Range: 15, 28}}"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -237,7 +277,9 @@
           "Raphael": "enabled",
           "Season": "Spring, Summer, Fall",
           "Weather": "Rain"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -248,7 +290,9 @@
           "Raphael": "enabled",
           "Season": "Summer",
           "Day": "{{Range: 1, 14}}"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -259,7 +303,9 @@
           "Raphael": "enabled",
           "Season": "Summer",
           "Day": "{{Range: 15, 28}}"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -270,7 +316,9 @@
           "Raphael": "enabled",
           "Season": "Fall",
           "Day": "{{Range: 1, 14}}"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -281,7 +329,9 @@
           "Raphael": "enabled",
           "Season": "Spring",
           "Day": "{{Range: 15, 28}}"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -292,7 +342,9 @@
           "Raphael": "enabled",
           "Season": "Winter",
           "Day": "{{Range: 1, 14}}"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -303,7 +355,9 @@
           "Raphael": "enabled",
           "Season": "Winter",
           "Day": "{{Range: 15, 28}}"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -314,7 +368,9 @@
           "Raphael": "enabled",
           "Season": "Winter",
           "Weather": "Snow"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -324,7 +380,9 @@
           "EnableMod": "true",
           "Raphael": "enabled",
           "DayEvent": "Egg Festival"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -334,7 +392,9 @@
           "EnableMod": "true",
           "Raphael": "enabled",
           "DayEvent": "Flower Dance"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -344,7 +404,9 @@
           "EnableMod": "true",
           "Raphael": "enabled",
           "DayEvent": "Festival of Ice"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -354,7 +416,9 @@
           "EnableMod": "true",
           "Raphael": "enabled",
           "DayEvent": "Luau"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -364,7 +428,9 @@
           "EnableMod": "true",
           "Raphael": "enabled",
           "DayEvent": "Dance of the Moonlight Jellies"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -374,7 +440,9 @@
           "EnableMod": "true",
           "Raphael": "enabled",
           "DayEvent": "Spirit's Eve"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -384,7 +452,9 @@
           "EnableMod": "true",
           "Raphael": "enabled",
           "DayEvent": "Stardew Valley Fair"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       },
       {
         "Action": "EditImage",
@@ -394,7 +464,9 @@
           "EnableMod": "true",
           "Raphael": "enabled",
           "DayEvent": "Feast of the Winter Star"
-        }
+        },
+        "Update": "OnLocationChange",
+        "Priority": "Late"
       }
     ]
 }
