@@ -107,7 +107,7 @@
       },
       {
         "Action": "EditImage",
-        "Target": "Portraits/Lunna_Winter",
+        "Target": "Portraits/Lunna",
         "FromFile": "assets/Lunna/Seasons/Lunna_Winter_Indoor.png",
         "When": {
           "EnableMod": "true",
@@ -120,7 +120,7 @@
       },
       {
         "Action": "EditImage",
-        "Target": "Portraits/Lunna_Winter",
+        "Target": "Portraits/Lunna",
         "FromFile": "assets/Lunna/Seasons/Lunna_Winter_Outdoor.png",
         "When": {
           "EnableMod": "true",
@@ -133,7 +133,7 @@
       },
       {
         "Action": "EditImage",
-        "Target": "Portraits/Lunna_Winter",
+        "Target": "Portraits/Lunna",
         "FromFile": "assets/Lunna/Seasons/Lunna_Winter_Outdoor_Snow.png",
         "When": {
           "EnableMod": "true",
@@ -335,7 +335,7 @@
       },
       {
         "Action": "EditImage",
-        "Target": "Portraits/Raphael_Winter",
+        "Target": "Portraits/Raphael",
         "FromFile": "assets/Raphael/Seasons/Raphael_Winter_1.png",
         "When": {
           "EnableMod": "true",
@@ -348,7 +348,7 @@
       },
       {
         "Action": "EditImage",
-        "Target": "Portraits/Raphael_Winter",
+        "Target": "Portraits/Raphael",
         "FromFile": "assets/Raphael/Seasons/Raphael_Winter_2.png",
         "When": {
           "EnableMod": "true",
@@ -361,7 +361,7 @@
       },
       {
         "Action": "EditImage",
-        "Target": "Portraits/Raphael_Winter",
+        "Target": "Portraits/Raphael",
         "FromFile": "assets/Raphael/Seasons/Raphael_Winter_Snow.png",
         "When": {
           "EnableMod": "true",

@@ -321,7 +321,7 @@
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/Birdie",
-			"FromFile": "assets/Birdie.png",
+			"FromFile": "assets/SDV/Birdie/Birdie.png",
 			"When": {
 				"EnableMod": "true",
                 "Birdie": "enabled"
@@ -584,6 +584,8 @@
 			"Action": "EditImage",
 			"Target": "Portraits/Gunther",
 			"FromFile": "assets/SDV/Gunther/Gunther.png",
+            "FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 16},
+            "ToArea": {"X": 192, "Y": 128, "Width": 16, "Height": 16},
 			"When": {
 				"EnableMod": "true",
 				"Gunther": "enabled"
