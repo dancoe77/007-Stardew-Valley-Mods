@@ -582,10 +582,10 @@
 		//Gunther
 		{
 			"Action": "EditImage",
-			"Target": "Portraits/Gunther",
+			"Target": "Portraits/GuntherSilvian",
 			"FromFile": "assets/SDV/Gunther/Gunther.png",
-            "FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 16},
-            "ToArea": {"X": 192, "Y": 128, "Width": 16, "Height": 16},
+            "FromArea": {"X": 0, "Y": 0, "Width": 128, "Height": 192},
+            "ToArea": {"X": 0, "Y": 0, "Width": 64, "Height": 96},
 			"When": {
 				"EnableMod": "true",
 				"Gunther": "enabled"
@@ -823,8 +823,8 @@
 		//Marlon
 		{
 			"Action": "EditImage",
-			"Target": "Portraits/Marlon",
-			"FromFile": "assets/SDV/MArlon/Marlon.png",
+			"Target": "Portraits/MarlonFay",
+			"FromFile": "assets/SDV/Marlon/Marlon.png",
 			"When": {
 				"EnableMod": "true",
 				"Marlon": "enabled"
