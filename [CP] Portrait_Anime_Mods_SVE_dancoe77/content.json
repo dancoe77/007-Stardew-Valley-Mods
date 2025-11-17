@@ -584,8 +584,6 @@
 			"Action": "EditImage",
 			"Target": "Portraits/GuntherSilvian",
 			"FromFile": "assets/SDV/Gunther/Gunther.png",
-            "FromArea": {"X": 0, "Y": 0, "Width": 128, "Height": 192},
-            "ToArea": {"X": 0, "Y": 0, "Width": 64, "Height": 96},
 			"When": {
 				"EnableMod": "true",
 				"Gunther": "enabled"
@@ -830,6 +828,15 @@
 				"Marlon": "enabled"
 			}
 		},
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/MarlonFay_Winter",
+        "FromFile": "assets/SDV/Marlon/Marlon.png",
+        "When": {
+          "EnableMod": "true",
+          "Marlon": "enabled"
+        }
+      },
 		//Marnie
 		{
 			"Action": "EditImage",
