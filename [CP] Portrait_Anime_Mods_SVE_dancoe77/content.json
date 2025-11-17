@@ -677,13 +677,31 @@
 		//Jas
 		{
 			"Action": "EditImage",
-			"Target": "Portraits/SDV/Jas",
+			"Target": "Portraits/Jas",
 			"FromFile": "assets/SDV/Jas/Jas.png",
 			"When": {
 				"EnableMod": "true",
 				"Jas": "enabled"
 			}
 		},
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Jas_Beach",
+        "FromFile": "assets/SDV/Jas/Jas.png",
+        "When": {
+          "EnableMod": "true",
+          "Jas": "enabled"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Jas_Winter",
+        "FromFile": "assets/SDV/Jas/Jas.png",
+        "When": {
+          "EnableMod": "true",
+          "Jas": "enabled"
+        }
+      },
 		//Jodi
 		{
 			"Action": "EditImage",
@@ -1300,7 +1318,16 @@
       {
         "Action": "EditImage",
         "Target": "Portraits/Olivia_Beach",
-        "FromFile": "assets/SVE/Olivia/Olivia_Beach.png",
+        "FromFile": "assets/SVE/Olivia/Olivia.png",
+        "When": {
+          "EnableMod": "true",
+          "Olivia": "enabled"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Olivia_Winter",
+        "FromFile": "assets/SVE/Olivia/Olivia.png",
         "When": {
           "EnableMod": "true",
           "Olivia": "enabled"
