@@ -1,5 +1,5 @@
 {
-  "Format": "2.8.0",
+  "Format": "2.9.0",
   "ConfigSchema": {
     "EnableMod": {
       "AllowValues": "true, false",
