@@ -5,7 +5,7 @@
    "Description": "Replaces letters from Joja's medical team with letters from Dr. Harvey.",
    "UniqueID": "dancoe77.JojaMedicalRemoval",
    "MinimumApiVersion": "4.5.2",
-   "UpdateKeys": [ "Nexus:3865" ],
+   "UpdateKeys": [ "ModDrop:1784830" ],
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher",
       "MinimumVersion": "2.9.1"
