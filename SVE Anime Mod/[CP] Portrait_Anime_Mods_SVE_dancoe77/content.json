@@ -1,5 +1,5 @@
 {
-  "Format": "2.8.0",
+  "Format": "2.9.0",
   "ConfigSchema": {
     "EnableMod": {
       "AllowValues": "true, false",
@@ -60,6 +60,10 @@
     "Evelyn": {
       "AllowValues": "enabled, disabled",
       "Default": "enabled"
+    },
+    "Evelyn_Style": {
+      "AllowValues": "Normal, Alter",
+      "Default": "Normal"
     },
     "George": {
       "AllowValues": "enabled, disabled",
@@ -517,19 +521,41 @@
 			"Target": "Portraits/Evelyn",
 			"FromFile": "assets/SDV/Evelyn/Evelyn.png",
 			"When": {
-				"EnableMod": "true",
-				"Evelyn": "enabled"
+              "EnableMod": "true",
+              "Evelyn": "enabled",
+              "Evelyn_Style": "Normal"
 			}
 		},
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Evelyn",
+        "FromFile": "assets/SDV/Evelyn/Alt.png",
+        "When": {
+          "EnableMod": "true",
+          "Evelyn": "enabled",
+          "Evelyn_Style": "Alter"
+        }
+      },
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/Evelyn_Winter",
 			"FromFile": "assets/SDV/Evelyn/Evelyn_Winter.png",
 			"When": {
-				"EnableMod": "true",
-				"Evelyn": "enabled"
+              "EnableMod": "true",
+              "Evelyn": "enabled",
+              "Evelyn_Style": "Normal"
 			}
 		},
+      {
+        "Action": "EditImage",
+        "Target": "Portraits/Evelyn_Winter",
+        "FromFile": "assets/SDV/Evelyn/Evelyn_Winter_Alt.png",
+        "When": {
+          "EnableMod": "true",
+          "Evelyn": "enabled",
+          "Evelyn_Style": "Alter"
+        }
+      },
 		//George
 		{
 			"Action": "EditImage",

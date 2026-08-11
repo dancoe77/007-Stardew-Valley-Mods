@@ -11,6 +11,10 @@ The values are as follows:
       "AllowValues": "Normal, Alter",
       "Default": "Normal"
 
+"Evelyn_Style": {
+      "AllowValues": "Normal, Alter",
+      "Default": "Normal"
+
 "Leah_Winter_Style": {
       "AllowValues": "Normal, Alter",
       "Default": "Normal"
