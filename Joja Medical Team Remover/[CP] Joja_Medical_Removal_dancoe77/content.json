@@ -1,0 +1,16 @@
+{
+  "Format": "2.9.0",
+  "Changes": [
+       {
+          "Action": "EditData",
+          "Target": "Data/mail",
+          "When": {
+              "IsCommunityCenterComplete": "true"
+          },
+          "Entries": {
+              "passedOut1_Billed_{{PlayerGender}}": "@,^Ever since the Community Center was restored everyone has really stepped up, but someone dropped you off at the clinic last night. You'd passed out from exhaustion!^You've got to take better care of yourself and go to bed at a reasonable hour.^I've billed you {0}g to cover your medical expenses.^^-Dr. Harvey[#]From The Office Of Dr. Harvey",
+              "passedOut1_NotBilled_{{PlayerGender}}": "@,^Ever since the Community Center was restored everyone has really stepped up, but someone dropped you off at the clinic last night. You'd passed out from exhaustion!^You've got to take better care of yourself and go to bed at a reasonable hour.^Since you have no money, I provided your medical care free of charge.^^-Dr. Harvey[#]Harvey's Free Medical Service"
+          }
+       }
+    ]
+}
